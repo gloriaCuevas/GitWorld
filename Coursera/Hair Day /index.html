@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hair Day</title>
+    <meta name="description" content="TBD">
+    <meta name="description" content="Hair Day">
+
+    <!--CSS Files-->
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="Artboard 19.png" alt="Hair Day Logo" width="160px" height="160px">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li></li><a href="products.html">Products</a></li>
+            <li></li><a href="about.html">About</a></li>
+            <li></li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <br><br><br>
+                <h1>A Good Hair Day,</h1>
+                <h1>Every Day!</h1>
+                <br><br>
+                <p>
+                    Your hair says so much about you.
+
+                    From your cut to your color to how you style it. 
+                    Our experienced stylists can help guide you to a 
+                    new style, maintain a classic look, <br>or get you all
+                     dolled up on a special day. We would love to sit 
+                     down with you and help your hair say all the right 
+                     things!
+                </p>
+            </article>
+        </section>
+        <section class="sec2">
+            <div>
+                
+            <article>
+                <h1>Hair Color</h1>
+                <img src="color.jpg" alt="Hair Coloring" width="150px" height="200px">
+                <p>
+                    Our colorists are dedicated to inventing a space for 
+                    guests to relax, unwind and feel inspired by change. 
+                    From highlights to Balayage, the world is your oyster. 
+               </p>
+            </article>
+            
+        </div>
+            <div>
+
+            <article>
+                <h1>Hair Cut</h1>
+                <img src="cut.jpg" alt="Hair Cut" width="150px" height="200px">
+                <p>
+                    Long, short, asymmetrical, or precision-straight,
+                    we love giving clients cuts that accentuate who 
+                    they are and allow them to refine their personal 
+                    style. You will always leave the salon looking 
+                    perfectly coiffed.
+                </p>
+            </article>
+            
+        </div>
+            <div>
+            <article>
+                <h1>Hair Styling</h1>
+                <img src="style.jpg" alt="Hair Styles" width="150px" height="200px">
+                <p>
+                    From special occasion blowouts to long-lasting 
+                    sets, we have the beautification skills to make 
+                    your hair gorgeous for any event, no matter how 
+                    big or small. From finger-waves to pin-straight 
+                    blowouts, we have you covered.
+                    
+                </p>
+            </article>
+            
+        </div>
+        <div>
+            <article>
+                <h1>Make Up</h1>
+                <img src="makeup.jpg" alt="Hair Styles" width="150px" height="200px">
+                <p>
+                    Glamming up for a night on the town or for a special event? 
+                    Our talented crew can get you to any look you are trying to 
+                    achieve, from natural & bright to dark & smokey.
+                    
+                </p>
+            </article>
+            
+        </div>
+        <div>
+            <article>
+                <h1>Nails</h1>
+                <img src="nails.jpg" alt="Hair Styles" width="150px" height="200px">
+                <p>
+                    Our manicure services are nourishing and hydrating, 
+                    giving your hands the ultimate renewal. The signature 
+                    manicure not only treats your nails, it also incorporates
+                     an aromatic + replenishing hand lotion that hydrates and 
+                     firm the skin. This keeps your hands supple and healthy.
+                    
+                </p>
+            </article>
+            
+        </div>
+        </section>
+     
+                
+    </main>
+    <footer>
+    <div class="tutorials">
+        <h1>Tutorials</h1>
+        <a href="https://youtu.be/IYgCo9OV8ZU?si=pcIipz7njsAZ0Tt-">10 Minute Makeup Tutorial</a><br>
+        <a href="https://youtu.be/zS3d3A_lcUc?si=lg1frZCrPiydzENT">Correct Order of Makeup Application</a><br>
+        <a href="https://youtu.be/6OlPHcmbSos?si=LMJWfExFTCVJafNm">How to: Natural Nails Manicure</a><br>
+        <a href="https://youtu.be/i5p1xAwnfPQ?si=OKWt8wy00RhUDJJW">How to: Natural Gel Nails With Tip</a>
+    </div> 
+
+    <form action="citas" method="post"></form>
+
+    <div class="appointments">
+        
+
+        <label for="calendar"><h1>Appointments</h1></label>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="Schedule">Choose a date & time for your appointment:</label>
+        
+<input
+type="datetime-local"
+id="Schedule"
+name="Schedule"
+value="2023-09-23T09:30"
+min="2023-09-23T09:00"
+max="2023-12-12T12:00" required>
+
+<label for="service">Choose a Service:</label>
+
+<select id="service">
+<option value="Hair Coloring">Hair Coloring</option>
+<option value="Hair Cut">Hair Cut</option>
+<option value="Hair Styling">Hair Styling</option>
+<option value="Make Up">Make Up</option>
+<option value="Nails">Nails</option>
+</select>
+<input type="submit" value="Submit">
+    </div>
+    </form>
+
+
+        <div class="CopyrightLogo">
+            <h1>Hair Day</h1>
+            <p>Copyright © 2023 Hair Day</p>
+            <p>All Rights Reserved</p>
+            <img src="Artboard 1.png" alt="Hair Day" width="150px" height="75px"><br>
+        </div>
+    </footer>
+</body>
+</html>
