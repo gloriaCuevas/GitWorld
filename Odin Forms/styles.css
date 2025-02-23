@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    line-height: 1.5;
+
+}
+@font-face {
+    font-family: 'Myfont';
+    src: url(Norse-Bold.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.formsContainer, .messageBox{
+    display: flex;
+    
+    }
+.imageBox{
+    flex:1;
+    flex-direction: row;
+    background-color: ghostwhite; 
+}
+.formsContainer img{
+    flex:1;
+    width: 35%;
+    height: 85%;
+   
+    
+    
+}
+.odinBannerBack{
+    background-color: black;
+    opacity: 30%;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -1100px;
+    position: relative;
+    left: 0px;
+    height: 140px;
+    width: 35%;
+    
+}
+.odinBanner{
+    
+    background-image: url(images/odin-lined.png);
+    background-size: 85px;
+    background-repeat: no-repeat;
+    background-position:30%;
+    top: -1245px;
+    position: relative;
+    left: 0px;
+    height: 130px;
+    width: 35%;
+    color: aliceblue;
+    font-family: 'Myfont';
+    text-align: center;
+    font-size: 5em;
+    padding-top: 20px;
+    padding-left: 80px;
+    
+}
+.firstP{
+   background-color: ghostwhite;
+    height: 18%;
+    width: 48%;
+    top: -1425px;
+    left: 437px;
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 40px;  
+}
+.secondP{
+    background-color: white;
+    height: 18%;
+    width: 48%;
+    top: -1508px;
+    left: 437px;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 40px;   
+}
+.actualForm{
+    font-size: 7px;
+    font-weight: normal;
+    border-radius: 25px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+   
+  }
+  
+  td {
+    padding: 10px 0; 
+    
+  }
+  input:invalid {
+    border: 2px solid red;
+    background-color: white;
+  }
+  input:focus {
+    background-color: white;
+    border: blue;
+  }
+  input{
+    border-radius: 5px;
+  }
+  .thirdP{
+    background-color:ghostwhite;
+    height: 18%;
+    width: 48%;
+    top: -1490px;
+    left: 437px;
+    position: relative;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 40px;   
+  }
+  input[type=submit]{
+    background-color: #596D48;
+  color: white;
+  padding: 12px 36px;
+  text-decoration: none;
+  margin: 4px 6px;
+  border-radius: 10px;
+  
+  }

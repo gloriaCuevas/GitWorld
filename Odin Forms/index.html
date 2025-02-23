@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basic Form</title>
+</head>
+<body>
+    <div class= "formsContainer">
+        
+        <div class="imageBox">
+            
+             <img src="images/backdrop.jpg"alt = "banner" /> 
+   
+                <div class="odinBannerBack"></div>
+             
+                <div class="odinBanner">ODIN</div>
+            <div class="firstP"><br>This is not a real online service!  You know you need something
+                <p>like this in your life to help you realize your deepest dreams. </p>
+                <p>Sign up <i>now</i> to get started.</p><br>
+                <p>You <i>know</i> you want to.</p>
+            </div>
+            <div class="secondP"><br><p>Let's do this!</p><br>
+            <form class="actualForm">
+                <table>
+                    <tr>
+                        <th> <label for="fname">FIRST NAME</label></th>
+                        <th><label for="lname">LAST NAME</label></th>
+                    </tr>
+                    <tr>
+                    <td><input type="text" id="fname" name="fname"></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                    </tr>
+                    <tr>
+                    <th><label for="email">EMAIL</label></td>
+                    <th><label for="phone">PHONE NUMBER</label></td>
+                    </tr>
+                     <tr>
+                     <td><input type="email" id="email" pattern=".+@example\.com" /></td>
+                     <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
+                     </tr>
+                      <tr>
+                     <th>  <label for="pass">PASSWORD</label></td>
+                     <th><label>CONFIRM PASSWORD</label></td>
+                     </tr>
+                      <tr>
+                        <td><input type="password" id="pass" name="password" minlength="8" required /></td>
+                      <td> <input type="password" id="confirm_password" required></td>
+                     </tr>
+                      </table>
+                    </form>
+                </div>
+           <div class="thirdP">
+            <form class="/action_page.php">
+                <table>
+                    <tr>
+                        <td> <input type="submit" value="Create Account"></td>
+                        </tr>
+                    <tr>
+                        <td>Already have an account? Login</td>
+                    </tr>
+                  </table>
+            </form>
+        </div>
+    </div>
+</div>
+        </div> 
+           
+    </div>
+       
+   
+
+</body>
+</html>
